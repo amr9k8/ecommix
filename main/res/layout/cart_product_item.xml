@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/main_container2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="8dp"
+        android:layout_margin="8dp"
+        >
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_margin="6dp"
+            android:weightSum="4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_margin="8dp"
+                android:layout_height="wrap_content">
+                <!--            name-->
+                <TextView
+                    android:layout_margin="8dp"
+                    android:id="@+id/text_title2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18dp"
+                    android:textStyle="italic|bold"
+                    android:textColor="@color/black"
+                    android:maxLines="1"
+                    >
+
+                </TextView>
+
+                <!--            Price-->
+                <TextView
+                    android:layout_margin="8dp"
+                    android:id="@+id/text_source2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14sp"
+                    android:textStyle="bold|italic"
+                    android:textColor="@color/black"
+                    android:maxLines="1"
+                    android:layout_marginTop="6dp"
+
+                    >
+
+                </TextView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="4"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    >
+
+                    <Button
+                        android:id="@+id/incitem"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="0dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/DarkGreen"
+                        android:text="+"
+                        android:textColor="@color/white"
+                        android:textSize="10dp"
+                        app:cornerRadius="0dp">
+
+
+                    </Button>
+                    <EditText
+                        android:id="@+id/quantity"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:textSize="16dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:textAlignment="center"
+                        ></EditText>
+                    <Button
+                        android:id="@+id/decitem"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="0dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="@color/DarkGreen"
+                        android:text="-"
+                        android:textColor="@color/white"
+                        android:textSize="10dp"
+                        app:cornerRadius="0dp">
+
+
+                    </Button>
+
+                </LinearLayout>
+                <Button
+                  android:padding="3dp"
+                    android:id="@+id/removeprod"
+                    android:layout_width="match_parent"
+                    android:layout_weight="0.4"
+                    android:textColor="#fff"
+                    android:text="Remove Item"
+                    android:textSize="10dp"
+                    android:backgroundTint="@color/DarkRed"
+                    android:layout_height="30dp" />
+
+
+
+
+
+                <!--            prod id-->
+                <TextView
+                    android:id="@+id/prod_id2"
+                    android:visibility="gone"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"/>
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/img_headline2"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:src="@drawable/not_available"
+                android:scaleType="fitCenter"
+                android:layout_height="match_parent">
+            </ImageView>
+
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
