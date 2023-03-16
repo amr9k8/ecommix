@@ -17,3 +17,5 @@ Ecommix is  ecommerce android app with php-mysql backend with  advanced features
 <br> 1) run php script on xampp
 <br> 2) run app in android studio
 <br> 3) Enjoy
+#Project Preview
+https://github.com/amr9k8/ecommix/blob/main/bandicam%202023-03-16%2011-21-43-342.mp4
