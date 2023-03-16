@@ -1,7 +1,7 @@
 # ecommix
 
 ### Description  :
-Ecommix is ecommerce android app with php-mysql backend 
+Ecommix is  ecommerce android app with php-mysql backend with  advanced features
 <br>1  ➤ Sign up & login facilities.☑ 							
 <br>2  ➤ Remember me & forget password recovery facilities.☑
 <br>3  ➤ Facility to navigate categories and products☑
@@ -10,7 +10,7 @@ Ecommix is ecommerce android app with php-mysql backend
 <br>6  ➤ Facility to add/remove/edit quantities of products in the shopping cart.☑
 <br>7  ➤ Facility to show order total before submission.☑
 <br>8  ➤ Facility to determine location of delivery by GPS/Google Maps.☑
-<br>9  ➤ Define the customer's birthdate using a calendar.
+<br>9  ➤ Define the customer's birthdate using a calendar.☑
 <br>10 ➤ Show graph/ chart representing order history per month☑
 
 ### How to run it :
